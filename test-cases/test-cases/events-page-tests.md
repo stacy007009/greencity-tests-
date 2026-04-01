@@ -33,6 +33,20 @@ Events page is opened
 | Apply filter | any value | List changes |
 | Check results | - | Filtered events shown |
 
+---
+
+
+
+ Verify page behavior without internet
+
+Preconditions:
+Internet is turned off
+
+| Step | Action | Data | Expected Result |
+|------|--------|------|----------------|
+| Open browser | - | Browser opened |
+| Go to page | https://www.greencity.cx.ua/#/greenCity/events | Page does not load |
+| Check screen | - | Error message or no connection message displayed |
 
 
  Negative Test: No results
